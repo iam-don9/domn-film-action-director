@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="320" viewBox="0 0 1200 320"
+     role="img" aria-labelledby="title desc">
+  <title id="title">domn-film-action-director 五步工作流</title>
+  <desc id="desc">把整段动作看成一条穿过场景的高速战斗路线：S1 看清角色与场景 → S2 定打法 → S3 铺整场路线 → S4 排回合与重击 → S5 成稿。唯一裁判：动作正确 ＞ 结构成立 ＞ 呈现好看。</desc>
+
+  <!-- background -->
+  <rect width="1200" height="320" rx="24" fill="#0C0F13"/>
+
+  <!-- title block -->
+  <g id="title-block" transform="translate(56 40)">
+    <text x="0" y="14" fill="#7A8694" font-size="15" letter-spacing="2"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">WORKFLOW · S1–S5</text>
+    <text x="0" y="46" fill="#E8ECF1" font-size="23" font-weight="600"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">把整段动作看成一条穿过场景的高速战斗路线</text>
+  </g>
+
+  <!-- project-proof: the route + 5 stage nodes -->
+  <g id="project-proof">
+    <!-- route line behind nodes -->
+    <line x1="120" y1="180" x2="1080" y2="180" stroke="#FF2608" stroke-width="3"/>
+    <!-- directional arrowheads in the gaps -->
+    <path d="M233 174 L247 180 L233 186 Z" fill="#FF2608"/>
+    <path d="M473 174 L487 180 L473 186 Z" fill="#FF2608"/>
+    <path d="M713 174 L727 180 L713 186 Z" fill="#FF2608"/>
+    <path d="M953 174 L967 180 L953 186 Z" fill="#FF2608"/>
+
+    <!-- S1 -->
+    <g id="stage-1" transform="translate(120 180)">
+      <circle r="32" fill="#0C0F13" stroke="#2A3138" stroke-width="1.5"/>
+      <text x="0" y="8" fill="#FF2608" font-size="24" font-weight="800" text-anchor="middle"
+            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">S1</text>
+      <text x="0" y="238" fill="#E8ECF1" font-size="21" font-weight="600" text-anchor="middle"
+            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">看清角色与场景</text>
+      <text x="0" y="264" fill="#7A8694" font-size="17" text-anchor="middle"
+            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">外形 · 场景</text>
+    </g>
+
+    <!-- S2 -->
+    <g id="stage-2" transform="translate(360 180)">
+      <circle r="32" fill="#0C0F13" stroke="#2A3138" stroke-width="1.5"/>
+      <text x="0" y="8" fill="#FF2608" font-size="24" font-weight="800" text-anchor="middle"
+            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">S2</text>
+      <text x="0" y="238" fill="#E8ECF1" font-size="21" font-weight="600" text-anchor="middle"
+            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">定打法</text>
+      <text x="0" y="264" fill="#7A8694" font-size="17" text-anchor="middle"
+            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">专属打法</text>
+    </g>
+
+    <!-- S3 -->
+    <g id="stage-3" transform="translate(600 180)">
+      <circle r="32" fill="#0C0F13" stroke="#2A3138" stroke-width="1.5"/>
+      <text x="0" y="8" fill="#FF2608" font-size="24" font-weight="800" text-anchor="middle"
+            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">S3</text>
+      <text x="0" y="238" fill="#E8ECF1" font-size="21" font-weight="600" text-anchor="middle"
+            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">铺整场路线</text>
+      <text x="0" y="264" fill="#7A8694" font-size="17" text-anchor="middle"
+            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">高速战斗线</text>
+    </g>
+
+    <!-- S4 -->
+    <g id="stage-4" transform="translate(840 180)">
+      <circle r="32" fill="#0C0F13" stroke="#2A3138" stroke-width="1.5"/>
+      <text x="0" y="8" fill="#FF2608" font-size="24" font-weight="800" text-anchor="middle"
+            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">S4</text>
+      <text x="0" y="238" fill="#E8ECF1" font-size="21" font-weight="600" text-anchor="middle"
+            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">排回合重击</text>
+      <text x="0" y="264" fill="#7A8694" font-size="17" text-anchor="middle"
+            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">回合 · 重击 · 终结</text>
+    </g>
+
+    <!-- S5 terminus (filled accent = the deliverable) -->
+    <g id="stage-5" transform="translate(1080 180)">
+      <circle r="32" fill="#FF2608"/>
+      <text x="0" y="8" fill="#0C0F13" font-size="24" font-weight="800" text-anchor="middle"
+            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">S5</text>
+      <text x="0" y="238" fill="#E8ECF1" font-size="21" font-weight="600" text-anchor="middle"
+            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">成稿</text>
+      <text x="0" y="264" fill="#7A8694" font-size="17" text-anchor="middle"
+            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">动作先行成稿</text>
+    </g>
+  </g>
+
+  <!-- footer principle -->
+  <g id="metadata">
+    <text x="600" y="304" fill="#7A8694" font-size="18" text-anchor="middle"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">唯一裁判 · 动作正确 ＞ 结构成立 ＞ 呈现好看</text>
+  </g>
+</svg>
